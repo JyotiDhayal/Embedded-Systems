@@ -8,6 +8,7 @@ Imports necessary modules and functions from various libraries including Keras (
 
 # Dataset Visualization
 Visualizes the dataset to understand the nature of images and data distribution.
+![image](https://github.com/JyotiDhayal/Embedded-Systems/assets/112848090/31c6f4c0-eb7a-4b1e-b4c8-c7b4afcfc7cf)
 
 # Preprocessing
 Converting Color Channels: Converts the images from BGR to RGB format using OpenCV's cv2.cvtColor() function.
@@ -29,6 +30,8 @@ Trains the defined model using training data, specifying the number of epochs, b
 
 # Plotting Results
 Creates a figure with subplots displaying the original and compressed images for comparison.
+![image](https://github.com/JyotiDhayal/Embedded-Systems/assets/112848090/641a95b6-ec25-4c32-bdd1-4025def77c68)
+
 
 # Saving Compressed Image
 Saves the compressed image to a file using OpenCV's imwrite function.
@@ -41,3 +44,5 @@ Sets compression quality for saving an image in JPEG format, saves the image, an
 
 # Conclusion
 Based on the comparison of compression ratios, it is concluded that the custom model performs better than the standard JPEG algorithm.
+![image](https://github.com/JyotiDhayal/Embedded-Systems/assets/112848090/fa10b526-044b-4a43-9a01-5b795e354db2)
+
